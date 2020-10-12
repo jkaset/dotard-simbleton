@@ -1,4 +1,4 @@
-export const Business = (businessObject) => {
+export const BusinessHTML = (businessObject) => {
   return `
      
       

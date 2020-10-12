@@ -4,5 +4,5 @@
 // const allTheBusinesses = useBusinesses()
 // console.log(allTheBusinesses)
 
-import { BusinessList } from './BusinessList.js'
-BusinessList()
+import { populateNyBusinessList } from './BusinessList.js'
+populateNyBusinessList()
