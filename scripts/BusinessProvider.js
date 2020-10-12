@@ -110,3 +110,6 @@ const businesses = [
     addressCity: "Watrous"
   }
 ];
+
+export const useBusinesses = () => {
+  return businesses.slice()
