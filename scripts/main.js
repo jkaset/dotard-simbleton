@@ -1,4 +1,8 @@
-import { useBusinesses } from './BusinessProvider.js'
-import { useBusinesses } from './BusinessProvider.js'
+// import { useBusinesses } from './BusinessProvider.js'
 
-const allTheBusinesses = useBusinesses()
+
+// const allTheBusinesses = useBusinesses()
+// console.log(allTheBusinesses)
+
+import { BusinessList } from './BusinessList.js'
+BusinessList()

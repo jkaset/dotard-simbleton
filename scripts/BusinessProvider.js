@@ -112,4 +112,4 @@ const businesses = [
 ];
 
 export const useBusinesses = () => {
-  return businesses.slice()
+  return businesses.slice()}
