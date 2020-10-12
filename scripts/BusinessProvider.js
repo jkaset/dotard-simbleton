@@ -113,3 +113,21 @@ const businesses = [
 
 export const useBusinesses = () => {
   return businesses.slice()}
+
+// export const nyBusinesses = businesses.filter(businessObject => {
+//   if (businessObject.addressStateCode === "NY") {
+//     return true
+//   }
+//   return false
+// })
+
+export const nyBusinessesFilter = () => {
+  const nyCoArray = []
+  for (const nyCo of businesses) {
+    if (nyCo.addressStateCode === "NY"){
+      nyCoArray.push(nyCo)
+      //console.log(nyCo)
+    }
+  }
+  return nyCoArray
+}
